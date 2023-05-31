@@ -284,3 +284,58 @@
         cursor: pointer;
     }
     
+@media (max-width: 768px) {
+  .benefits-container,
+  .products-container,
+  .reviews-container,
+  .about-container,
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .benefit-item,
+  .product-item,
+  .review-item,
+  .about-text {
+    margin: 20px auto;
+    max-width: 90%;
+  }
+
+  .contact-form {
+    max-width: 90%;
+    margin: auto;
+  }
+}
+
+@media (max-width: 480px) {
+  .logo {
+    max-width: 80px;
+  }
+
+  h1 {
+    font-size: 1.5em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+  }
+
+  .benefit-item img,
+  .product-item img {
+    max-width: 80px;
+    height: 80px;
+  }
+
+  .cta-button {
+    padding: 8px 16px;
+  }
+
+  .price {
+    font-size: 1em;
+  }
+
+  .footer-content {
+    padding: 10px;
+  }
+}
