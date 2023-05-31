@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Tienda de Colchones</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10"></script>
+
+</head>
+<body>
+  <header>
+    <div class="header-container">
+      <div class="logo-container">
+        <img src="img/logo.png" alt="Logo de la empresa" class="logo">
+      </div>
+      <h1>Duerme mejor con nuestros colchones versagge</h1>
+      <h2>Fabricados con materiales eco-amigables para un sueño saludable y reparador</h2>
+      <a href="link_a_tu_producto.html">
+        <button class="cta-button">Compra ahora</button>
+    </a>
+    </div>
+  </header>
+  <section class="benefits-section">
+        <h2>Nuestros Beneficios</h2>
+        <div class="benefits-container">
+          <div class="benefit-item">
+            <img src="/img/confort.jpg" alt="Icono de comodidad">
+            <h3>Comodidad</h3>
+            <p>Nuestros colchones están diseñados para proporcionarte el máximo confort.</p>
+          </div>
+          <div class="benefit-item">
+            <img src="/img/durability.jpg" alt="Icono de durabilidad">
+            <h3>Durabilidad</h3>
+            <p>Hechos con materiales de alta calidad para garantizar una larga vida útil.</p>
+          </div>
+          <div class="benefit-item">
+            <img src="/img/warranty.jpg" alt="Icono de garantía">
+            <h3>Garantía</h3>
+            <p>Ofrecemos una garantía de 10 años en todos nuestros colchones.</p>
+          </div>
+          <div class="benefit-item">
+            <img src="/img/eco.jpg" alt="Icono ecológico">
+            <h3>Eco-Amigable</h3>
+            <p>Comprometidos con el medio ambiente, todos nuestros colchones son eco-amigables.</p>
+          </div>
+        </div>
+  </section>
+  <section class="products-section">
+        <h2>Nuestros Productos</h2>
+        <div class="products-container">
+          <div class="product-item">
+            <img src="/img/colchon1.jpg" alt="Colchón 1">
+            <h3>Colchón Zafiro</h3>
+            <p>Disfruta de un sueño profundo con nuestro Colchón Zafiro. Ideal para aquellos que valoran el confort y la durabilidad.</p>
+            <p class="price">S/. 450</p>
+            <button class="cta-button">Más información</button>
+          </div>
+          <div class="product-item">
+            <img src="/img/colchon2.jpg" alt="Colchón 2">
+            <h3>Colchón Nautica</h3>
+            <p>Experimenta la mezcla perfecta de soporte y suavidad con nuestro Colchón Nautica.</p>
+            <p class="price">S/. 750</p>
+            <button class="cta-button">Más información</button>
+          </div>
+          
+          <div class="product-item">
+              <img src="/img/colchon3.jpg" alt="Colchón 3">
+              <h3>Colchón Jumbo</h3>
+              <p>Nuestro Colchón Jumbo es el tope de gama, con los mejores materiales y la última tecnología en confort.</p>
+              <p class="price">S/. 950</p>
+              <button class="cta-button">Más información</button>
+            </div>
+  </section>
+  <section class="contact-form-section">
+        <h2>Solicita más información</h2>
+        <form class="contact-form" id="contactForm">
+          <label for="name">Nombre:</label>
+          <input type="text" id="name" name="name" required>
+      
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+      
+          <label for="product-interest">Producto de Interés:</label>
+          <select id="product-interest" name="product-interest" required>
+            <option value="">Selecciona un producto...</option>
+            <option value="colchon-Jumbo">Colchón Jumbo</option>
+            <option value="colchon-Nautica">Colchón Nautica</option>
+            <option value="colchon-Zafiro">Colchón Zafiro</option>
+          </select>
+      
+          <label for="message">Mensaje:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+      
+          <input type="submit" value="Enviar">
+        </form>
+  </section>
+  <section class="reviews-section">
+        <h2>Lo que dicen nuestros clientes</h2>
+        <div class="reviews-container">
+          <div class="review-item">
+            <p>"El Colchón Jumbo es el mejor colchón en el que he dormido. ¡Lo recomendaría a todos!"</p>
+            <cite>- Luis Alfonso</cite>
+          </div>
+          <div class="review-item">
+            <p>"Nuestro Colchón Zafiro ha transformado nuestras noches. ¡Gracias por un producto tan increíble!"</p>
+            <cite>- Luis ALberto</cite>
+          </div>
+          <div class="review-item">
+            <p>"Nos encanta el compromiso de esta empresa con la sostenibilidad. El Colchón Nautica es fantástico."</p>
+            <cite>- Carlos Alarcon</cite>
+          </div>
+        </div>
+  </section>
+  <section class="about-section">
+        <h2>Acerca de Nosotros</h2>
+        <div class="about-container">
+          <div class="about-text">
+            <h3>Misión</h3>
+            <p>Nuestra misión es proporcionar a nuestros clientes el sueño más cómodo y saludable posible con colchones de alta calidad y eco-amigables.</p>
+          </div>
+          <div class="about-text">
+            <h3>Historia</h3>
+            <p>Fundada en 1990, nuestra empresa ha estado a la vanguardia de la tecnología de colchones, siempre buscando nuevas formas de mejorar la calidad del sueño de nuestros clientes.</p>
+          </div>
+          <div class="about-text">
+            <h3>Equipo</h3>
+            <p>Nuestro equipo está compuesto por expertos en sueño y profesionales del diseño de colchones, todos comprometidos con la satisfacción del cliente.</p>
+          </div>
+        </div>
+  </section>
+  <footer>
+    <div class="footer-content">
+        <div class="contact-info">
+          <h3>Contacto</h3>
+          <p>Dirección: Bauzate y meza 1396, lima-peru</p>
+          <p>Teléfono: +51 922736626</p>
+          <p>Email: comglorerate@gmail.com</p>
+        </div>
+        <div class="site-links">
+          <h3>Enlaces</h3>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li>
+          </ul>
+        </div>
+        <div class="social-links">
+          <h3>Síguenos</h3>
+          <a href="https://www.facebook.com/comglorerate"><img src="/img/facebook.png" alt="Facebook"></a>
+          <a href="https://www.twitter.com/comglorerate"><img src="/img/twitter.png" alt="Twitter"></a>
+          <a href="https://www.instagram.com/comglorerate"><img src="/img/instagram.png" alt="Instagram"></a>
+        </div>
+      </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
