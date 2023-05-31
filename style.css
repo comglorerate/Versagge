@@ -284,58 +284,48 @@
         cursor: pointer;
     }
     
-@media (max-width: 768px) {
-  .benefits-container,
-  .products-container,
-  .reviews-container,
-  .about-container,
-  .footer-content {
-    flex-direction: column;
-    align-items: center;
+/* Estilos para dispositivos móviles */
+@media only screen and (max-width: 600px) {
+    .header-container,
+    .benefits-container,
+    .products-container,
+    .contact-form,
+    .reviews-container,
+    .about-container,
+    .footer-content {
+      flex-direction: column;
+    }
+    .benefit-item,
+    .product-item,
+    .review-item,
+    .about-text,
+    .contact-info,
+    .site-links,
+    .social-links {
+      width: 100%;
+    }
+    h1, h2, h3 {
+      font-size: 1.2em;
+    }
   }
-
-  .benefit-item,
-  .product-item,
-  .review-item,
-  .about-text {
-    margin: 20px auto;
-    max-width: 90%;
+  
+  /* Estilos para tabletas */
+  @media only screen and (min-width: 601px) and (max-width: 1024px) {
+    .benefit-item,
+    .product-item {
+      width: 50%; /* Dos items por fila */
+    }
+    .review-item,
+    .about-text {
+      width: 100%;
+    }
+    .contact-info,
+    .site-links,
+    .social-links {
+      width: 33.33%; /* Tres items por fila */
+    }
+    h1, h2, h3 {
+      font-size: 1.5em;
+    }
   }
-
-  .contact-form {
-    max-width: 90%;
-    margin: auto;
-  }
-}
-
-@media (max-width: 480px) {
-  .logo {
-    max-width: 80px;
-  }
-
-  h1 {
-    font-size: 1.5em;
-  }
-
-  h2 {
-    font-size: 1.2em;
-  }
-
-  .benefit-item img,
-  .product-item img {
-    max-width: 80px;
-    height: 80px;
-  }
-
-  .cta-button {
-    padding: 8px 16px;
-  }
-
-  .price {
-    font-size: 1em;
-  }
-
-  .footer-content {
-    padding: 10px;
-  }
-}
+  
